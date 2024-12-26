@@ -26,12 +26,11 @@ terraform {
 
 module "myproject" {
 
-    source = "../modules/"
+    source = "../../modules/"
 
     environment = "test"
-
-
-    vpc = {
+    network = {
+        cidr = "10.0.0.0/24"
     }
 
 
