@@ -1,1 +1,5 @@
 .terraform*
+*.tfplan
+*.log
+*.tfvars
+
